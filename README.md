@@ -1,2 +1,2 @@
 # ThreeManOneGirlOneCode
-Our first priject
+Our first project
