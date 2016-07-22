@@ -1,0 +1,21 @@
+apply plugin: 'java'
+
+jar {
+    baseName = 'ThreeManOneGirlAndCode'
+    version =  '0.1.0'
+}
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    compile("org.springframework:spring-core:4.2.4.RELEASE")
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.10'
+}
