@@ -2,3 +2,6 @@
 .classpath
 RemoteSystemTempFiles
 .metadata
+/bin/
+.gradle
+.settings
